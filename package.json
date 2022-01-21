@@ -1,5 +1,5 @@
 {
-  "name": "md-notion-richtext-api",
+  "name": "md2notionapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -25,5 +25,8 @@
     "nodemon": "^2.0.15",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
+  },
+  "engines": {
+      "node": "16.9.1"
   }
 }
