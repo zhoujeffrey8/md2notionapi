@@ -29,7 +29,7 @@ const app = (0, express_1.default)().use(body_parser_1.default.json()); // creat
 //     }
 //   }
 // ]
-app.listen(3000, () => console.log('[ChatBot] Webhook is listening'));
+app.listen(process.env.PORT || 5000);
 app.post('/', (req, res) => {
     // print request body
     console.log(req.body.string);

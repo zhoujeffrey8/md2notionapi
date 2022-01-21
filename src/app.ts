@@ -28,7 +28,7 @@ const app = express().use(bodyParser.json()); // creates http server
 //   }
 // ]
 
-app.listen(3000, () => console.log('[ChatBot] Webhook is listening'));
+app.listen(process.env.PORT || 5000);
 
 
 app.post('/', (req, res) => {
