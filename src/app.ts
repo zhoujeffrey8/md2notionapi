@@ -36,5 +36,5 @@ app.post('/', (req, res) => {
     // print request body
     console.log(req.body.string);
 
-    res.json(markdownToRichText(req.body.string));
+    res.json(markdownToBlocks(req.body.string));
 });

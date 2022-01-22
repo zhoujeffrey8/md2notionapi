@@ -33,5 +33,5 @@ app.listen(process.env.PORT || 5000);
 app.post('/', (req, res) => {
     // print request body
     console.log(req.body.string);
-    res.json((0, martian_1.markdownToRichText)(req.body.string));
+    res.json((0, martian_1.markdownToBlocks)(req.body.string));
 });
