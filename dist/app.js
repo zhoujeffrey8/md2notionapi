@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const martian_1 = require("@tryfabric/martian");
 const app = (0, express_1.default)().use(body_parser_1.default.json()); // creates http server
+const allowUnsupportedObjectType = true;
 //const richText: RichText[] = markdownToRichText(`**Hello _world_**`);
 // [
 //   {

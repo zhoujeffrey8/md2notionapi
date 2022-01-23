@@ -4,6 +4,7 @@ import {markdownToBlocks, markdownToRichText} from '@tryfabric/martian';
 import type {RichText, Block} from '@notion-stuff/v4-types';
 
 const app = express().use(bodyParser.json()); // creates http server
+const allowUnsupportedObjectType = true;
 //const richText: RichText[] = markdownToRichText(`**Hello _world_**`);
 
 // [
