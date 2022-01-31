@@ -1,6 +1,6 @@
 # md2notionapi
 
-This is a API call that let's you convert a markdown string into Notion rich text blocks. 
+This is a API call that let's you convert a markdown string into Notion rich text blocks. (No installation required!)
 
 Uses https://www.npmjs.com/package/@tryfabric/martian
 
