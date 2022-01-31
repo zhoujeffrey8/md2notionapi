@@ -11,11 +11,11 @@ with the markdown string you want to convert
 
 #### Headers:
 
-Content-Type: application/json
+- Content-Type: application/json
 
 #### Body Params:
 
-string: string to convert
+- string: string to convert
 
 Example in python:
 
